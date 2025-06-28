@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f9f9f9;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background: rgba(0,0,0,0.6);
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFD700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFD700;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 120px;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.hero span {
+  color: #FFD700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #eee;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill-list li {
+  background-color: #FFD700;
+  color: #222;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project {
+  background: #ffebcd;
+  padding: 20px;
+  border-radius: 15px;
+  width: 260px;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #222;
+  color: #fff;
+}
